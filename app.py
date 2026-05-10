@@ -1,9 +1,7 @@
 import streamlit as st
-from dotenv import load_dotenv
 from groq import Groq
 from faq import check_faq
 
-load_dotenv()
 client = Groq()
 SYSTEM_PROMPT = 'You are a helpful AI assistant.'
 
